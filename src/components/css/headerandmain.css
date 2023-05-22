@@ -48,10 +48,7 @@ background-color: #F5F5F5;
 }
 
 .profile-info p{
-width: 327px;
 
-left: 24px;
-top: 401px;
 font-style: normal;
 font-weight: 400px;
 font-size: 22px;
@@ -70,6 +67,7 @@ justify-content: center;
     justify-content: center;
  
     margin:20px;
+    padding-bottom: 20px;
 }
 .iconsgithub{
     width: 32px;
@@ -97,8 +95,6 @@ height: 22.7px;
 @media(min-width: 740px) and (max-width: 1024px){
 
 .logo{
-  display: inline-block;
-
   background-color: #FCEDEA;
 }
 .logo img{
@@ -108,15 +104,9 @@ height: 22.7px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-        
+
         }
-   
-.profile-info p{
-   padding: 40px;
-    font-size: 22px;
-   }
-    
-   
+
    .profile-image{
     display: flex;
     flex-direction: row;
@@ -133,15 +123,23 @@ height: 22.7px;
     justify-content: center;
     padding-left: 40px;
 }
-    .iprofile-container h1{
+.iprofile-container h1{
         color: #0b24f4;
         font-size: 28px;
         }
     
-    .profile-container h2{
+.profile-container h2{
         color: black;
         font-size: 32px;
         }
+
+       
+.profile-info{
+    margin: 20px;
+    padding: 40px;
+    
+    
+    } 
     }
 
    
@@ -168,9 +166,6 @@ order: 1;
     width: 100%;
     object-fit: cover;
 }
-
-
-
 .profile-image{
     padding-top: 100px;
     width: 100%;
@@ -188,6 +183,11 @@ order: 1;
    padding-left: 10px;
 }
 
-
+.profile-info{
+    margin: 20px;
+    padding: 40px;
+    
+    } 
+   
 
 }

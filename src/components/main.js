@@ -25,7 +25,7 @@ export const Main = () => {
 background in communication, education, human rights and health.
                 In me, you will have a structured, inventive and solutions-based co-worker,
                 whose experiences have made her a pedagogical and motivational leader.
-                I am proficient in Swedish, English, Spanish and a bit of Portuguese.
+                I am proficient in Swedish, English, Spanish and conversation level in Portuguese.
                 As a person, I am positive and love to learn new things.
                 Often, I am the one colleagues and friends come to for advice
                 - as well as fun ideas!
