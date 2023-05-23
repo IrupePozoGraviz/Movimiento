@@ -1,52 +1,67 @@
-.techskills{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #EDFFFF;
-    width: 100%;
-  
 
-}
-.techskills h2{
-    color: #0B24F5;
-    font-size: 80px;
-    width: 100%;
-    height: 108px;
- 
-    padding-top: 60px;
-   
-}
-.techtitle{
-    justify-self: center;
-}
+.skills{
+    display: flex;
+    flex-direction: column;
+    background-color: #FDF2E4;
+    justify-content: center;
+    padding-left: 20px;
+    }
+    
+    .skills h3{
+    padding-top: 50px;
+        color: #0B24F5;
+        font-weight: bold;
+        font-size: 80px;
+        text-align: center;
+        padding-bottom: 30px;
+       
+    }
+    .code{
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .code dt{
+        background-color: magenta;
+       
+    }
+    .toolbox{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .toolbox dt{
+       background-color: green; 
+     
+    }
+    .morelist{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .more{
+        background-color: #0B24F5;
+       
+    }
+    
+    .js{
+        background-color: #0B24F4;
+    }
+    .tech{
+        color: white;
+        padding: 0 2px;
+    }
+    .Cloud{
+        background-color: red;
+    }
+    .acces{
+        background-color: #12af2c;
+    }
+    dt{
+        display: inline-block;
+        font-size: 24px;
+        margin: 0 0 15px 0;
+        color: white ;
+        padding: 2px 6px;
+    }
 
-.techchild{
-   padding-top: 20px;
-    justify-self: center;
-    text-align: center;
-   margin: 40px;
-
-
-}
-/*behöver lösa gap*/
-.techchild p{
-   
-    font-size: 22px;
-   
-}
-.js{
-    background-color: #0B24F4;
-}
-.tech{
-    color: white;
-    padding: 0 2px;
-}
-
-.react{
-    background-color: #e65f76;
-}
-.mob{
-    background-color: #12af2c;
-}
 
 @media(min-width: 740px) and (max-width: 1024px){
 
@@ -60,5 +75,29 @@
     .techtitle{
         text-align: center;
         padding-bottom: 20px;
+    }
+
+    .skills h3{
+        text-align: center;
+        grid-column: 1/3;
+    }
+    
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1025px) {
+    .skills{
+        display: flex;
+        flex-direction: row;
+    
+        padding-top: 70px;
+        padding-bottom: 40px;
+        justify-content: space-around;
+    }
+    .skills h3{
+        padding-top: 0;
     }
 }
