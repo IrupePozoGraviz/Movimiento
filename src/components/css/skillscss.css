@@ -1,0 +1,64 @@
+.techskills{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #EDFFFF;
+    width: 100%;
+  
+
+}
+.techskills h2{
+    color: #0B24F5;
+    font-size: 80px;
+    width: 100%;
+    height: 108px;
+ 
+    padding-top: 60px;
+   
+}
+.techtitle{
+    justify-self: center;
+}
+
+.techchild{
+   padding-top: 20px;
+    justify-self: center;
+    text-align: center;
+   margin: 40px;
+
+
+}
+/*behöver lösa gap*/
+.techchild p{
+   
+    font-size: 22px;
+   
+}
+.js{
+    background-color: #0B24F4;
+}
+.tech{
+    color: white;
+    padding: 0 2px;
+}
+
+.react{
+    background-color: #e65f76;
+}
+.mob{
+    background-color: #12af2c;
+}
+
+@media(min-width: 740px) and (max-width: 1024px){
+
+    .techskills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 90px;
+        padding-top: 90px;
+    }
+    .techtitle{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
