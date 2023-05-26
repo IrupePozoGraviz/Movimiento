@@ -99,6 +99,7 @@ margin: 10px;
 	.contact-container h3 {
 	  color: #eb5577;
 	  font-size: 100px;
+	  text-align: center;
 	}
   
 	.profileimg-container {
@@ -133,6 +134,23 @@ margin: 10px;
   @media (min-width: 1025px) {
 	.contact-container h3 {
 	  text-align: center;
+	  font-size: 100px;
 	}
+
+	  
+	  .name-container h1 {
+		color: #0b24f4;
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 38px;
+	  }
+	  
+	  .name-container h2 {
+		color: black;
+		font-size: 50px;
+		font-weight: 900;
+		line-height: 43px;
+	  }
+
   }
   

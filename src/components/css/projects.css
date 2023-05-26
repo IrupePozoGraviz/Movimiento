@@ -44,15 +44,14 @@ margin-bottom: 10px;
 
 }
 .gitbtn{
-display: flex;
-align-items: center;
-background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
     color: black;
     border-radius: 40px;
-    width: 55%;
+    width: 164px;
+    height: 48px; 
     border: none;
-    margin-right: 7px; 
-    margin-top: 5px;
 
 }
 
@@ -65,15 +64,14 @@ background: #F5F5F5;
     display: inline-block;
 }
 .livebtn{
-  display: flex;
-align-items: center;
-background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
     color: black;
     border-radius: 40px;
-    width: 55%;
+    width: 164px;
+    height: 48px; 
     border: none;
-    margin-right: 7px; 
-    margin-top: 5px;
    
 }
 .livebtn p{
@@ -133,6 +131,9 @@ padding-bottom: 5px;
     margin: 10px 0;
 
 }
+
+    
+  
 
 }
    
