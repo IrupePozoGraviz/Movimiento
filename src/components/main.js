@@ -1,5 +1,5 @@
 import React from 'react'
-import irupe from '../images/irupe.jpeg'
+import irupe from '../images/irupe.png'
 import blackGithub from '../images/blackgithubicon.svg'
 import blackLinkedin from '../images/blacklinkedinicon.svg'
 import { Header } from './header';

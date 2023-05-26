@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
-import irupe from '../images/irupe.jpeg';
+import irupe from '../images/irupe.png';
 import blackGithub from '../images/blackgithubicon.svg';
 import blackLinkedin from '../images/blacklinkedinicon.svg';
 
@@ -35,8 +36,7 @@ export const Contact = () => {
               id="email"
               value={email}
               onChange={handleEmailChange}
-              required
-            />
+              required />
 
             <label htmlFor="message">Message:</label>
             <textarea
