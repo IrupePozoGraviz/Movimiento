@@ -1,5 +1,6 @@
 
-.project-container{
+
+.projects {
    display: flex;
    flex-direction: column;
     justify-content: center;
@@ -7,7 +8,7 @@
     background-color: white;
 }
 
-.project-container h2{
+.projects h2{
     display: flex;
     color: #0B24F5;
     font-size: 55px;
@@ -16,7 +17,7 @@
   
 }
 
-.project-container h3{
+.projects h3{
     font-size: 32px;
     
 }
@@ -36,6 +37,7 @@
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
+padding: 10px;
 }
 
 .featuredContainers img{
@@ -101,7 +103,7 @@ a {
 
 
 @media(min-width: 740px) and (max-width: 1024px){
-.project-container{
+.projects{
  grid-column: 1/2;
  display: flex;
  flex-direction: column;
@@ -111,7 +113,7 @@ a {
 
 }
 
-.project-container h2{
+.projects h2{
     grid-column: 1/2;
 }
 
@@ -145,7 +147,7 @@ padding-bottom: 5px;
    
 @media(min-width: 1025px) {
 
-.project-container{
+.projects{
     display: flex;
     align-items: center;
 

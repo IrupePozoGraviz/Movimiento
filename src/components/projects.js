@@ -1,6 +1,15 @@
 import React from 'react'
 import blackGithub from '../images/blackgithubicon.svg'
 import blackglobe from '../images/blackglobe.svg'
+import quiz from '../images/quiz.png'
+import maze from '../images/maze.png'
+import guess from '../images/guess.png'
+import music from '../images/music.png'
+import todos from '../images/todos.png'
+import weather from '../images/weather.png'
+import happy from '../images/happy.png'
+import movies from '../images/movie.png'
+import survey from '../images/survey.png'
 import './css/projects.css';
 
 export const Projects = () => {
@@ -9,7 +18,7 @@ export const Projects = () => {
     <section className="projects">
       {/* happy Thoughts */}
       <div className="featuredContainers">
-        <img src="/css/happyastrid-schaffner-KtUiqfpLOVQ-unsplash.jpg" alt="where it says" />
+        <img src={happy} alt="where it says" />
 
         <article className="featured-text">
           <h3>Happy Thoughts</h3>
@@ -25,7 +34,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-happy-thoughts">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -33,7 +42,7 @@ export const Projects = () => {
             </div>
 
             <div className="livebtn">
-              <a href="https://scintillating-licorice-b4dc6d.netlify.app">
+              <a href="https://happy-thoughts-movimiento.netlify.app/">
                 <img src={blackglobe} alt="button to view the live page" />
                 <span>Live demo</span>
               </a>
@@ -44,7 +53,7 @@ export const Projects = () => {
 
       {/* Movies */}
       <div className="featuredContainers">
-        <img src="/css/gr-stocks-q8P8YoR6erg-unsplash.jpg" alt="background" />
+        <img src={movies} alt="background" />
         <article className="featured-text">
 
           <h3>Movie Releases in React</h3>
@@ -60,7 +69,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-movies">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -68,7 +77,7 @@ export const Projects = () => {
             </div>
 
             <div className="livebtn">
-              <a href="https://scintillating-licorice-b4dc6d.netlify.app">
+              <a href="https://cozy-sunburst-a5adfd.netlify.app/">
                 <img src={blackglobe} alt="button to view the live page" />
                 <span>Live demo</span>
               </a>
@@ -79,7 +88,7 @@ export const Projects = () => {
 
       {/* To do */}
       <div className="featuredContainers">
-        <img src="/css/todolacie-slezak-eJsh9LKnX_A-unsplash.jpg" alt=" pict" />
+        <img src={todos} alt=" pict" />
         <article className="featured-text">
           <h3>To Do- To do application using Redux</h3>
           <p>A classic todo-app built in React using Redux.
@@ -94,7 +103,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-todos">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -114,7 +123,7 @@ export const Projects = () => {
 
       {/* Maze */}
       <main className="featuredContainers">
-        <img src="/css/todolacie-slezak-eJsh9LKnX_A-unsplash.jpg" alt=" pict" />
+        <img src={maze} alt=" pict" />
         <article className="featured-text">
           <h3>The Great Space Maze- Labyrinth Game using Redux</h3>
           <p>A game where the user navigates through a maze, trying to find their way out of it.
@@ -129,7 +138,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-labyrinth">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -149,7 +158,7 @@ export const Projects = () => {
 
       {/* Quiz */}
       <div className="featuredContainers">
-        <img src="/css/todolacie-slezak-eJsh9LKnX_A-unsplash.jpg" alt=" pict" />
+        <img src={quiz} alt=" pict" />
         <article className="featured-text">
           <h3>Como se llama el animal</h3>
           <p>Test your spanish skills in this fun project made for
@@ -163,7 +172,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-redux-quiz">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -183,7 +192,7 @@ export const Projects = () => {
 
       {/* Survey */}
       <div className="featuredContainers">
-        <img src="/css/todolacie-slezak-eJsh9LKnX_A-unsplash.jpg" alt=" pict" />
+        <img src={survey} alt=" pict" />
         <article className="featured-text">
           <h3>What`&apos;` s your favourite animal- Survey in react</h3>
           <p>A survey where the user answers questions and gets to know their favourite animnal.
@@ -196,7 +205,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-survey">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -205,7 +214,7 @@ export const Projects = () => {
           </div>
 
           <div className="livebtn">
-            <a href="https://scintillating-licorice-b4dc6d.netlify.app">
+            <a href="https://transcendent-heliotrope-0d805c.netlify.app">
               <img src={blackglobe} alt="button to view the live page" />
               <span>Live demo</span>
             </a>
@@ -216,7 +225,7 @@ export const Projects = () => {
 
       {/* MusicProject */}
       <div className="featuredContainers">
-        <img src="/css/todolacie-slezak-eJsh9LKnX_A-unsplash.jpg" alt=" pict" />
+        <img src={music} alt=" pict" />
         <article className="featured-text">
           <h3>Music Releases in React</h3>
           <p>An site built in a pair-programming project,
@@ -230,7 +239,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-music-releases">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -250,7 +259,7 @@ export const Projects = () => {
 
       {/* Weather app */}
       <div className="featuredContainers">
-        <img src="/css/todolacie-slezak-eJsh9LKnX_A-unsplash.jpg" alt=" pict" />
+        <img src={weather} alt=" pict" />
         <article className="featured-text">
           <h3>Weather app built in Javascript</h3>
           <p>An app built in a pair-programming project to check the
@@ -265,7 +274,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://cheery-pasca-c07ee4.netlify.app/">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -274,7 +283,7 @@ export const Projects = () => {
           </div>
 
           <div className="livebtn">
-            <a href="https://transcendent-alfajores-976644.netlify.app/">
+            <a href="https://github.com/IrupePozoGraviz/project-weather-app">
               <img src={blackglobe} alt="button to view the live page" />
               <span>Live demo</span>
             </a>
@@ -285,7 +294,7 @@ export const Projects = () => {
 
       {/* Guess who */}
       <div className="featuredContainers">
-        <img src="/css/todolacie-slezak-eJsh9LKnX_A-unsplash.jpg" alt=" pict" />
+        <img src={guess} alt=" pict" />
         <article className="featured-text">
           <h3>Guess who game built in Javascript
           </h3>
@@ -301,7 +310,7 @@ export const Projects = () => {
 
           <div className="linksproject">
             <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
+              <a href="https://github.com/IrupePozoGraviz/project-guess-who">
 
                 <img src={blackGithub} alt="button to view the code on Git hub" />
                 <span>View the code</span>
@@ -310,7 +319,7 @@ export const Projects = () => {
           </div>
 
           <div className="livebtn">
-            <a href="https://scintillating-licorice-b4dc6d.netlify.app">
+            <a href="https://guess-who-irupe.netlify.app/">
               <img src={blackglobe} alt="button to view the live page" />
               <span>Live demo</span>
             </a>
@@ -318,65 +327,6 @@ export const Projects = () => {
           </div>
         </article>
       </div>
-
-      {/* Other projects */}
-      <div className="OtherProjects">
-        <h2>Other projects</h2>
-        <article className="featured-text">
-          <h3>Chatbot built in Javascript</h3>
-
-          <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p>
-          </div>
-
-          <div className="linksproject">
-            <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
-
-                <img src={blackGithub} alt="button to view the code on Git hub" />
-                <span>View the code</span>
-              </a>
-            </div>
-          </div>
-
-          <div className="livebtn">
-            <a href="https://scintillating-licorice-b4dc6d.netlify.app">
-              <img src={blackglobe} alt="button to view the live page" />
-              <span>Live demo</span>
-            </a>
-
-          </div>
-        </article>
-      </div>
-
-      <div className="OtherProjects">
-        <article className="featured-text">
-          <h3>First project ever- Newssite</h3>
-
-          <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p>
-          </div>
-
-          <div className="linksproject">
-            <div className="gitbtn">
-              <a href="https://github.com/IrupePozoGraviz/project-news-site">
-
-                <img src={blackGithub} alt="button to view the code on Git hub" />
-                <span>View the code</span>
-              </a>
-            </div>
-          </div>
-
-          <div className="livebtn">
-            <a href="https://scintillating-licorice-b4dc6d.netlify.app">
-              <img src={blackglobe} alt="button to view the live page" />
-              <span>Live demo</span>
-            </a>
-
-          </div>
-        </article>
-      </div>
-
-    </section>
-  )
+    </section> // Close the section here
+  );
 }
