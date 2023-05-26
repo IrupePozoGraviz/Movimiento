@@ -63,8 +63,7 @@ export const Projects = () => {
           </p>
 
           <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p> <p>React</p> <p>React Router</p>
-            <p>Pair-programming</p>
+            <p>JavaScript</p> <p>React</p> <p>React Router</p>
           </div>
 
           <div className="linksproject">
@@ -98,7 +97,7 @@ export const Projects = () => {
           </p>
 
           <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p> <p>React</p> <p>Redux</p>
+            <p>JavaScript</p> <p>React</p> <p>Redux</p>
           </div>
 
           <div className="linksproject">
@@ -132,7 +131,7 @@ export const Projects = () => {
           </p>
 
           <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p> <p>React</p> <p>Redux</p>
+            <p>JavaScript</p> <p>React</p> <p>Redux</p>
             <p>pair programming</p>
           </div>
 
@@ -167,7 +166,7 @@ export const Projects = () => {
           </p>
 
           <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p> <p>React</p> <p>Redux</p>
+            <p>JavaScript</p> <p>React</p> <p>Redux</p>
           </div>
 
           <div className="linksproject">
@@ -194,7 +193,7 @@ export const Projects = () => {
       <div className="featuredContainers">
         <img src={survey} alt=" pict" />
         <article className="featured-text">
-          <h3>What`&apos;` s your favourite animal- Survey in react</h3>
+          <h3>What&apos; s your favourite animal- Survey in react</h3>
           <p>A survey where the user answers questions and gets to know their favourite animnal.
             Try it out and see what your favourite animal is!
           </p>
@@ -234,7 +233,7 @@ export const Projects = () => {
           </p>
 
           <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p> <p>React</p> <p>API</p>
+            <p>JavaScript</p> <p>React</p> <p>API</p>
           </div>
 
           <div className="linksproject">
@@ -269,7 +268,7 @@ export const Projects = () => {
           </p>
 
           <div className="tags">
-            <p>HTML</p> <p>CSS</p> <p>JavaScript</p> <p>API</p> <p>Pair-programming</p>
+            <p>JavaScript</p> <p>API</p> <p>Pair-programming</p>
           </div>
 
           <div className="linksproject">
@@ -327,6 +326,6 @@ export const Projects = () => {
           </div>
         </article>
       </div>
-    </section> // Close the section here
+    </section>
   );
 }

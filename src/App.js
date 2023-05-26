@@ -7,10 +7,13 @@ import { Projects } from './components/projects'
 export const App = () => {
   return (
     <div>
-      <Main />
-      <Skills />
-      <Projects />
-      <Contact />
+      <section className="portfolio-container">
+        <Main />
+        <Skills />
+        <Projects />
+        <Contact />
+      </section>
     </div>
+
   )
 }

@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
-import irupe from '../images/irupe.png';
 import blackGithub from '../images/blackgithubicon.svg';
 import blackLinkedin from '../images/blacklinkedinicon.svg';
+import './css/contact.css';
 
 export const Contact = () => {
   const [email, setEmail] = useState('');
@@ -42,7 +42,6 @@ export const Contact = () => {
       <section className="contact-container">
         <h3>Time to talk</h3>
         <div className="profileimg-container">
-          <img src={irupe} alt="Irupé" />
           <div className="name-container">
             <h1>Irupé Pozo Graviz</h1>
             <h2>Frontend developer</h2>
@@ -51,27 +50,31 @@ export const Contact = () => {
         <div className="info-container">
           {!isSubmitted ? (
             <form
+              className="form"
               action="https://formspree.io/f/mrgvvawb"
               method="POST"
               onSubmit={handleSubmit}>
-              <label htmlFor="email">Your email:</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                value={email}
-                onChange={handleEmailChange}
-                required />
-
-              <label htmlFor="message">Message:</label>
-              <textarea
-                name="message"
-                id="message"
-                value={message}
-                onChange={handleMessageChange}
-                placeholder="Write your message here"
-                required />
-              <button type="submit">Send</button>
+              <div className="mail">
+                <label htmlFor="email"> <p>Your email:</p></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  value={email}
+                  onChange={handleEmailChange}
+                  required />
+              </div>
+              <div className="textarea">
+                <label htmlFor="message"> <p>Message:</p></label>
+                <textarea
+                  name="message"
+                  id="message"
+                  value={message}
+                  onChange={handleMessageChange}
+                  placeholder="Write your message here"
+                  required />
+              </div>
+              <button className="buttonSend" type="submit">Send</button>
             </form>
           ) : (
             <p>Message sent successfully!</p>

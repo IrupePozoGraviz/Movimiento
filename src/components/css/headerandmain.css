@@ -2,7 +2,8 @@
 
 
 .main-container{
-   
+   display: flex;
+   flex-direction: column;
 justify-content: center;
 background-color: #F5F5F5;
 
@@ -28,37 +29,52 @@ background-color: #F5F5F5;
 .main-container p{
     margin: 40px;
 }
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 80%;
+}
 .profile-image{
   display:flex;
     justify-content: center;
-   
     flex-direction: column;
-    padding-top: 40px;
-   padding-left:20px ;
   
 }
 
 .profile-image img{
-    border-radius: 50%;
-    width: 160px;
-    height: 170px;
-  place-self: center;
-  margin-bottom: 20px;
+border-radius: 20%;
+width: 30%;
+place-self: center;
+margin-bottom: 30px;
  
 }
-
-.profile-info p{
-
-font-style: normal;
-font-weight: 400px;
-font-size: 22px;
-line-height: 29px;
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .profile-info{
-    display: flex;
+display: flex;
 justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+.profile-info p{
+
+font-style: normal;
+font-size: 20px;
+line-height: 29px;
+
 }
 
 .icons{
